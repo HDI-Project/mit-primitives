@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 
 
 install_requires = [
-    'd3m==v2018.6.5',
+    'd3m==v2018.7.10',
     'mlblocks>=0.1.6',
 ]
 
