@@ -35,11 +35,11 @@ class Learner(SupervisedLearnerPrimitiveBase[Inputs, Outputs, Params, Hyperparam
         'source': {
             'name': 'MIT_FeatureLabs',
         },
-        'version': '0.0.1-dev',
+        'version': '0.0.1',
         'installation': [{
             'type': PrimitiveInstallationType.PIP,
             'package': 'mit-primitives',
-            'version': '0.0.1-dev'
+            'version': '0.0.1'
         }],
     })
 
