@@ -35,10 +35,10 @@ class Learner(SupervisedLearnerPrimitiveBase[Inputs, Outputs, Params, Hyperparam
         'source': {
             'name': 'MIT_FeatureLabs',
         },
-        'version': '0.0.2-dev',
+        'version': '0.0.2',
         'installation': [{
             'type': PrimitiveInstallationType.PIP,
-            'package_uri': 'git+https://github.com/HDI-Project/mit-primitives.git@v0.0.2-dev#egg=mit-primitives'
+            'package_uri': 'git+https://github.com/HDI-Project/mit-primitives.git@v0.0.2#egg=mit-primitives'
         }],
     })
 

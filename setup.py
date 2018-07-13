@@ -52,6 +52,6 @@ setup(
     name='mit-primitives',
     packages=find_packages(include=['mit_primitives', 'mit_primitives.*']),
     setup_requires=setup_requires,
-    version='0.0.2-dev',
+    version='0.0.2',
     zip_safe=False,
 )
