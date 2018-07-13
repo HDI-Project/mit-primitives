@@ -38,8 +38,7 @@ class Learner(SupervisedLearnerPrimitiveBase[Inputs, Outputs, Params, Hyperparam
         'version': '0.0.2-dev',
         'installation': [{
             'type': PrimitiveInstallationType.PIP,
-            'package': 'mit-primitives',
-            'version': '0.0.2-dev'
+            'package_uri': 'git+https://github.com/HDI-Project/mit-primitives.git@v0.0.2-dev#egg=mit-primitives'
         }],
     })
 
