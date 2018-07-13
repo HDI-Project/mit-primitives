@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
+import os
 
+from d3m import utils
 from d3m.container.dataset import Dataset
 from d3m.metadata import hyperparams
 from d3m.metadata.base import (
@@ -38,7 +40,10 @@ class Learner(SupervisedLearnerPrimitiveBase[Inputs, Outputs, Params, Hyperparam
         'version': '0.0.2',
         'installation': [{
             'type': PrimitiveInstallationType.PIP,
-            'package_uri': 'git+https://github.com/HDI-Project/mit-primitives.git@v0.0.2#egg=mit-primitives'
+            'package_uri': (
+                'git+https://github.com/HDI-Project/mit-primitives.git@'
+                '{git_commit}#egg=mit-primitives'
+            ).format(git_commit=utils.current_git_commit(os.path.dirname(__file__)))
         }],
     })
 
