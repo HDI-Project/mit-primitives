@@ -20,6 +20,7 @@ setup_requires = [
 development_requires = [
     'autoflake>=1.1',
     'autopep8>=1.3.5',
+    'bumpversion>=0.5.3',
     'flake8>=3.5.0',
     'isort>=4.3.4',
     'pip>=10.0.1',
