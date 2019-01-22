@@ -43,7 +43,8 @@ class Learner(SupervisedLearnerPrimitiveBase[Inputs, Outputs, Params, Hyperparam
             'package_uri': (
                 'git+https://github.com/HDI-Project/mit-primitives.git@'
                 '{git_commit}#egg=mit-primitives'
-            ).format(git_commit=utils.current_git_commit(os.path.dirname(__file__)))
+            ).format(git_commit='b6f01101f861193550a54dda4d00739af9e99572')
+            # ).format(git_commit=utils.current_git_commit(os.path.dirname(__file__)))
         }],
     })
 
