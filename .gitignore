@@ -106,3 +106,5 @@ ENV/
 
 # vim
 .*.swp
+
+docs/api

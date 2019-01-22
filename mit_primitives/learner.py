@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-import os
 
-from d3m import utils
 from d3m.container.dataset import Dataset
 from d3m.metadata import hyperparams
 from d3m.metadata.base import (
